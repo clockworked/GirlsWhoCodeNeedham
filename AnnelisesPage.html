@@ -1,0 +1,65 @@
+<!doctype html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Frozen Yogurt Shop</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script src="js/mobile.js" type="text/javascript"></script>
+	<script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="page">
+		<!-- Import the header from header.html -->
+		<div id="header"></div>
+
+		<div id="body">
+			<div class="header" style="background-color:#11527F ; color:#101010">
+				<div>
+					<h1>Annelise's Page</h1>
+				</div>
+			</div>
+			<div class="singlepost">
+
+				<table style="width:100%">	<!-- A table taking up 90% of the page! -->
+				  <tr > <!-- Table Row -->
+				    <th style="width:30%">	<!-- Table Heading -->
+				    <style>
+						.pic {
+						    border-radius: 50%;
+						}
+						</style>
+				      <img class="pic" onClick=clicked(this) src="images/IMG_5541.jpg" style="width:500px" /> <!-- Your image source -->
+				    </th>
+				    <th style="width:770%">
+				    <center>
+				      My name is Annelise Lemaire. I'm a freshman and this is my page.
+
+				      </center>
+				    </th> 
+				  </tr>
+				</table>
+			</div>
+		</div>
+
+		<!-- Import the footer from footer.html -->
+		<div id="footer"></div>
+	</div>
+</body>
+</html>
+<script>
+	function clicked(image)
+	{
+		if(image.src.match('images/IMG_5541.jpg')){
+			image.src = 'images/IMG_5534.jpg';
+		}
+		else if('images/IMG_4855 2.jpg') ;
+		
+		else{
+			image.src = 'images/IMG_5541.jpg';
+		}
+	}
+</script>

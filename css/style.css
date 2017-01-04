@@ -58,9 +58,8 @@ img {
 #header div {
 	margin: 0 auto;
 	max-width: 940px;
-	overflow: visible;
+	overflow: hidden;
 	padding: 41px 10px 27px;
-	height: 52px;
 }
 #header div a.logo {
 	float: left;
@@ -102,9 +101,11 @@ img {
 	text-align: center;
 	text-transform: uppercase;
 }
-#header div ul .secondary{
-	color:#f00;
-	width:35px;
+#header div ul li.selected a, #header div ul li.selected a:hover {
+	color: #cb3362;
+}
+#header div ul li a:hover, #header div ul li.menu:hover ul li a {
+	color: #c8c10d;
 }
 #header div ul li ul li a {
 	color: #cb3362;
@@ -116,7 +117,6 @@ img {
 	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
-	white-space: nowrap;
 }
 #header div ul li.menu {
 	min-height: 35px;
